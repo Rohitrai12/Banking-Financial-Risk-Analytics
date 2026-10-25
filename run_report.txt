@@ -1,0 +1,42 @@
+PROJECT RUN METADATA
+====================
+Source: Synthetic demo data, rows=5,000, seed=42
+Rows after cleaning: 5,000
+Seed: 42
+SciPy available: True
+DuckDB available: False
+SQL query results exported: 0
+Synthetic-data caution: if the source is synthetic, its risk rates are not real-world benchmarks.
+
+BANKING & FINANCIAL RISK ANALYTICS | EXECUTIVE SUMMARY
+============================================================
+
+DATASET SCOPE
+Rows after exact-duplicate removal: 5,000
+Columns after feature engineering: 30
+Records with a known approval status: 5,000
+Records with a known terminal default outcome: 3,677
+Records with an unknown/missing default outcome: 1,323
+
+PORTFOLIO INDICATORS
+Observed approval rate among known approval labels: 73.54%
+Observed default rate among known terminal outcomes: 17.05%
+Observed default count: 627
+
+DATA QUALITY
+Fields with at least one missing value: 3
+Invalid range values flagged before conservative cleaning: 0
+Rows involved in duplicate loan_id values: 0
+Exact duplicate rows are removed; duplicate loan IDs are flagged but not silently removed.
+
+INTERPRETATION NOTES
+1. The default rate uses only records with terminal outcomes coded 0 or 1.
+   Open, current, rejected, or otherwise unresolved outcomes should not be treated as non-defaults.
+2. Confidence intervals and group rates are empirical estimates; small groups can be unstable.
+3. Statistical associations do not establish cause and effect.
+4. Illustrative risk segments are transparent heuristics, not a credit score or underwriting policy.
+5. Synthetic-demo figures are for software validation only and are not real-world risk benchmarks.
+6. Review source definitions, units, outcome timing, missingness, and regulatory requirements before production use.
+
+ARTIFACTS
+See the output directory for CSV tables, PNG visualizations, sql_queries.sql, and engineered data.

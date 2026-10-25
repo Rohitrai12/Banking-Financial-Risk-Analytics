@@ -1,0 +1,8 @@
+feature,test,observations,categories,chi_square_statistic,degrees_of_freedom,p_value,cramers_v,cells_expected_below_5,interpretation_note
+credit_score_band,Chi-square test of independence,3677,4,151.10174794908713,3,1.52438026847873e-32,0.20271595383937643,0,"Association test only, not causation. Interpret cautiously when expected cell counts are small."
+dti_band,Chi-square test of independence,3677,4,93.91772290253897,3,3.154219765572962e-20,0.15981846761171775,0,"Association test only, not causation. Interpret cautiously when expected cell counts are small."
+illustrative_risk_segment,Chi-square test of independence,3677,3,158.72027347782003,2,3.4223981400478494e-35,0.20776356399854956,0,"Association test only, not causation. Interpret cautiously when expected cell counts are small."
+loan_purpose,Chi-square test of independence,3677,7,12.055992571264028,6,0.06073127273557929,0.057260438683746626,0,"Association test only, not causation. Interpret cautiously when expected cell counts are small."
+home_ownership,Chi-square test of independence,3677,4,0.1871567479414576,3,0.9796355143357197,0.00713437495089942,0,"Association test only, not causation. Interpret cautiously when expected cell counts are small."
+region,Chi-square test of independence,3677,5,2.441116406515147,4,0.6552099265990866,0.025766025356874358,1,"Association test only, not causation. Interpret cautiously when expected cell counts are small."
+has_any_delinquency_2y,Chi-square test of independence,3677,2,9.410390407295205,1,0.002157592826955554,0.050589106116649164,0,"Association test only, not causation. Interpret cautiously when expected cell counts are small."

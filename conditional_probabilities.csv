@@ -1,0 +1,8 @@
+probability,event_definition,observations,defaults,empirical_probability,ci_95_low,ci_95_high
+P(Default),Observed defaults / observed terminal outcomes,3677,627,0.1705194451998912,0.15870876489177219,0.18301784107394478
+P(Default | Any delinquency),Default among records with at least one reported delinquency in the prior two years,908,185,0.20374449339207049,0.1788196705133923,0.23116548118632543
+P(Default | No delinquency),Default among records with zero reported delinquencies in the prior two years,2769,442,0.1596244131455399,0.1464554237916107,0.17373650640201038
+P(Default | Total DTI >= 50%),Default among records with an available engineered total DTI of at least 50%,791,215,0.2718078381795196,0.24196232048718666,0.3038590555950127
+P(Default | Total DTI < 50%),Default among records with an available engineered total DTI below 50%,2886,412,0.14275814275814275,0.1304696926860327,0.15599635419479696
+P(Default | Credit score < 620),Default among observed outcomes with a credit score below 620,251,93,0.3705179282868526,0.3131438062592428,0.4317956541378433
+P(Default | Credit score >= 740),Default among observed outcomes with a credit score of at least 740,800,64,0.08,0.06314568979049578,0.10086856622227211

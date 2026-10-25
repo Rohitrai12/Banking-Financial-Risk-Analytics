@@ -1,0 +1,5 @@
+metric,value,definition
+outcome_observations,3677.0,Records with default = 0 or 1
+observed_defaults,627.0,Records labelled default = 1
+empirical_default_probability,0.1705194451998912,Observed default rate among records with known outcomes
+outcome_coverage_pct,73.54,Percent of all records with a known terminal outcome

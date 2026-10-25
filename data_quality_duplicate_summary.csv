@@ -1,0 +1,4 @@
+check,count,interpretation
+Exact duplicate rows after conservative cleaning,0,Exact duplicate records can inflate counts; removed during cleaning.
+Rows involved in duplicate loan_id values,0,"Potential identifier conflicts; reviewed, not automatically removed."
+Rows with a repeated customer_id,3515,Repeat borrowers may be valid; this is not automatically a data-quality error.

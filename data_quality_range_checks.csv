@@ -1,0 +1,12 @@
+column,rule,invalid_count,invalid_pct
+loan_amount,must be greater than 0,0,0.0
+annual_income,must be greater than 0,0,0.0
+credit_score,expected range 300 to 850,0,0.0
+employment_years,expected range 0 to 80 years,0,0.0
+debt_to_income_ratio,expected range 0 to 5 (0% to 500%),0,0.0
+interest_rate,expected range 0 to 1 after normalization,0,0.0
+loan_term_months,expected range 1 to 600 months,0,0.0
+existing_monthly_debt,must be non-negative,0,0.0
+monthly_payment,must be non-negative,0,0.0
+delinquencies_2y,must be non-negative,0,0.0
+credit_history_years,expected range 0 to 100 years,0,0.0
